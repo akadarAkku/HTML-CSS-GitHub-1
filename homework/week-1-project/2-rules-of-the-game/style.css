@@ -1,0 +1,18 @@
+body{
+    background-color: black; 
+    }
+
+h1{
+    text-align: center;
+  }
+  details{
+    position: relative;
+    margin-left: 300px;
+    margin-top: 50px;
+    color: white;
+  width: 50%;
+}
+
+details summary:hover{
+  background:yellow;
+}

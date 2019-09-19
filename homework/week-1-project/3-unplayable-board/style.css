@@ -1,0 +1,36 @@
+body{
+    background-color: black; 
+    }
+
+h1{
+    text-align: center;
+  }
+  details{
+    position: relative;
+    margin-left: 300px;
+    margin-top: 50px;
+    color: white;
+  width: 50%;
+}
+
+details summary:hover{
+  background:yellow;
+}
+
+table {
+    border-collapse: collapse;
+    position: absolute;
+    left: 50%;
+    margin-left: -155px;
+    top: 50%;  
+       }
+       
+td {
+    border: 2px solid white;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 70px;
+    cursor: pointer;
+    }
