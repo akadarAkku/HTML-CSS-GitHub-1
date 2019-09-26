@@ -19,7 +19,7 @@ header{
     min-height: 60px;
     border-bottom:lightblue 3px solid;
     font-family: serif;
-    border-radius: 30px;
+   border-radius: 30px;
 
 }
 
@@ -52,8 +52,12 @@ header nav{
   float:right;
   margin-top:10px;
 } 
-header .H,header .H a{
+header .H{
   color:Red;
+  font-weight:bold;
+}
+header a{
+  color:#FFD700;
   font-weight:bold;
 }
 header a:hover{
@@ -70,8 +74,8 @@ slider {
  overflow: hidden;
  position: absolute;
  margin-left:260px;
-  margin-top:100px;
-  border-radius: 30px;
+ margin-top:100px;
+ border-radius: 30px;
 }
 
 slider > * {
@@ -155,10 +159,24 @@ slide p {
   color:#00fddd;
   margin-left:70px;
   line-height: 2.5;
+
 }
 .slide-note{
   font-family:serif;
   font-size:35px;
   color:Yellow;
   margin-left:250px;
+}
+.p{
+  padding: 0px;
+  margin: 0px;
+  font-size: 15px;
+  text-align:left;
+  text-transform:capitalize;
+  font-weight:bold;
+
+}
+
+details{
+  text-align:left;
 }
