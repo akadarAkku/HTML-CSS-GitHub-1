@@ -19,6 +19,8 @@ header{
     min-height: 60px;
     border-bottom:lightblue 3px solid;
     font-family: serif;
+    border-radius: 30px;
+
 }
 
 header a{
