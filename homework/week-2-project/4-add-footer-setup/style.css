@@ -1,0 +1,202 @@
+body{
+  background-image:url(https://cdn.glitch.com/bc6c8fd1-4494-441e-a376-8cf85bf7af8c%2FPNdu945m0CddESnsOxpEBw_store_banner_image.jpeg?v=1569466719310);
+  background-size:25%;
+}
+
+
+/* 1-Header-Page-Setup */
+.container{
+width:80%;
+margin:auto;
+overflow: hidden;
+  
+}
+header{
+    background-image:url(https://cdn.glitch.com/bc6c8fd1-4494-441e-a376-8cf85bf7af8c%2Fbokeh-azul-abstracto-fondo-negro_53476-59.jpg?v=1569468198009);
+    background-size:20%;
+    padding-top: 20px;
+    color:white;
+    min-height: 60px;
+    border-bottom:lightblue 3px solid;
+    font-family: serif;
+   border-radius: 30px;
+  opacity: 0.8;
+
+}
+
+header a{
+  font-family: serif;
+  color:white;
+  text-decoration:none;
+  text-transform:capitalize;
+  font-size: 20px;
+
+}
+
+header ul{
+  margin:0;
+  padding:0;
+}
+
+header li{
+  float: left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+header #branding{
+  float:left;
+}
+header #branding h1{
+  margin:0;
+}
+header nav{
+  float:right;
+  margin-top:10px;
+} 
+header .H{
+  color:Red;
+  font-weight:bold;
+}
+header a{
+  color:#FFD700;
+  font-weight:bold;
+}
+header a:hover{
+  color:purple;
+  font-weight:bold;
+  opacity: 0.8;
+}
+/* 2-Section-Page-Setup */
+slider {
+ display: block;
+ width: 800px;
+ height: 600px;
+ background-color: #1f1f1f;
+ overflow: hidden;
+ position: absolute;
+ margin-left:260px;
+ margin-top:100px;
+ border-radius: 30px;
+}
+
+slider > * {
+ position: absolute;
+ display: block;
+ width: 100%;
+ height: 100%;
+ background: #1f1f1f;
+ animation: slide 12s infinite;
+ overflow: hidden;
+  
+
+}
+
+slide:nth-child(1){
+  position:absolute;
+ left: 0%;
+ animation-delay: -1s;
+ background-size: cover;
+ background-position: center;
+  z-index=1
+}
+.img{
+  position:absolute;
+    opacity: 0.2;
+   z-index=-1
+
+}
+
+slide:nth-child(2){
+ animation-delay: 2s;
+ background-size: cover;
+ background-position: center;
+}
+
+slide:nth-child(3){
+ animation-delay: 5s;
+ background-size: cover;
+ background-position: center;
+}
+
+slide:nth-child(4){
+ left: 0%;
+ animation-delay: 8s;
+ background-size: cover;
+ background-position: center;
+}
+
+slide p {
+ font-family: Comfortaa;
+ font-size: 70px;
+ text-align: center;
+ display: inline-block;
+ width: 100%;
+ margin-top: 340px;
+ color: #fff;
+}
+
+@keyframes slide {
+ 0% { left: 100%; width: 100%; }
+ 5% { left: 0%; }
+ 25% { left: 0%; }
+ 30% { left: -100%; width: 100%; }
+ 30.0001% { left: -100%; width: 0%; }
+ 100% { left: 100%; width: 0%; }
+}
+
+.slide1-container{
+   position:absolute;
+   z-index=2
+}
+.slide-main{
+  font-family:serif;
+  font-size:45px;
+  color:red;
+  margin-left:50px;
+}
+.slide-con{
+  font-family:sans-serif;
+  font-size:25px;
+  color:#00fddd;
+  margin-left:70px;
+  line-height: 2.5;
+
+}
+.slide-note{
+  font-family:serif;
+  font-size:30px;
+  color:Yellow;
+  margin-left:200px;
+  
+}
+.p{
+  padding: 0px;
+  margin: 0px;
+  font-size: 15px;
+  text-align:left;
+  text-transform:capitalize;
+  font-weight:bold;
+
+}
+h3{
+  text-transform:capitalize;
+}
+details{
+  text-align:left;
+}
+footer {
+        padding: 10px 30px;
+        background: #666;
+        color: white;
+        margin-top:800px;
+        overflow:hidden;
+        border-radius: 30px;
+        opacity: 0.7;
+        font-weight:bold;
+      }
+
+footer p{
+  float:left;
+  margin-left:100px;
+  
+}
