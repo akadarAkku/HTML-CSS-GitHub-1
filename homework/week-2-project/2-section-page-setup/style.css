@@ -1,20 +1,23 @@
 body{
-  background-color:gray;
+  background-image:url(https://cdn.glitch.com/bc6c8fd1-4494-441e-a376-8cf85bf7af8c%2FPNdu945m0CddESnsOxpEBw_store_banner_image.jpeg?v=1569466719310);
+  background-size:25%;
 }
+
+
 /* 1-Header-Page-Setup */
 .container{
 width:80%;
 margin:auto;
 overflow: hidden;
+  
 }
 header{
-    background-image:url(./img/black1.jpg);
-    background-size: contain, cover;
-    background-repeat:repeat-x;
-    padding-top: 30px;
+    background-image:url(https://cdn.glitch.com/bc6c8fd1-4494-441e-a376-8cf85bf7af8c%2Fbokeh-azul-abstracto-fondo-negro_53476-59.jpg?v=1569468198009);
+    background-size:20%;
+    padding-top: 20px;
     color:white;
     min-height: 60px;
-    border-bottom:red 3px solid;
+    border-bottom:lightblue 3px solid;
 }
 
 header a{
@@ -22,7 +25,7 @@ header a{
   color:white;
   text-decoration:none;
   text-transform:capitalize;
-  font-size: 18px;
+  font-size: 20px;
 
 }
 
@@ -47,13 +50,13 @@ header nav{
   margin-top:10px;
 } 
 header .H,header .H a{
-  color:#D2A306;
+  color:Red;
   font-weight:bold;
 }
 header a:hover{
-  color:#B23770;
+  color:purple;
   font-weight:bold;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 /* 2-Section-Page-Setup */
 slider {
@@ -127,4 +130,5 @@ slide p {
  30.0001% { left: -100%; width: 0%; }
  100% { left: 100%; width: 0%; }
 }
+
 
